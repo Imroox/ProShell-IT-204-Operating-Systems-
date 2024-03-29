@@ -44,9 +44,9 @@ This is an explanation of how to download and run your project locally. To get a
 2. Compile myshell.c using gcc compiler
 - gcc -Wait -o myshell myshell.c
 3. Compile task3.c, Task3Intermediate and Task3Additionally using gcc compiler
-- gcc -Wait -o task3 task3.c
-- gcc -Wait -o Task3Intermediate Task3Intermediate.c
-- gcc -Wait -o Task3Additionally Task3Additionally.c
+- gcc -Wall -o task3 task3.c
+- gcc -Wall -o Task3Intermediate Task3Intermediate.c
+- gcc -Wall -o Task3Additionally Task3Additionally.c
 
 4. Run using these commands:
 - ./myshell for myshell.c
