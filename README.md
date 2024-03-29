@@ -81,7 +81,8 @@ The fork() system call is fundamental for multitasking and multiprocessing in Un
 
 - A. When a process makes a system call and transitions from user mode to kernel mode, it needs to obtain the address of the kernel instruction to jump to execute the appropriate kernel code. This address is typically stored in a special system register called the "system call table" or "system call vector." The system call number provided by the process is used as an index in this table to fetch the address of the corresponding kernel function.
 
-#### B. Where is the userspace context of the process (program counter and other registers)
+#### B. Where is the userspace context of the process (program counter and other registers) stored during the transition from user mode to kernel mode?
+
 - B. During the transition from user mode to kernel mode, the userspace context of the process, including the program counter (PC) and other registers, is typically stored in a data structure known as the "kernel stack" or "process control block" (PCB). This data structure is maintained by the operating system for each process and contains information about the process's execution state. When the process makes a system call, the processor switches from user mode to kernel mode, and the current state of the process (including the program counter and registers) is saved onto its kernel stack. After the system call is executed, the process's state is restored from the kernel stack, and it resumes execution in user mode.
 
 #### Question 1.5.3: Explain the following code snippet and write down the list of process state transitions that occur during the following program. You may assume that this is the only process that the CPU is executing.
