@@ -5,6 +5,7 @@
 ProShell is a project submission for the IT 204 Operating Systems Course at International Burch University. ProShell is a project that was developed by Ali Imran Alić and Adnan Ferhatović, both current students at International Burch University. ProShell consists of a few parts:
 - myshell.c - Solution for 1.1, 1.2, and 1.4 tasks.
 - task3.c, Task3Intermediate.c, Task3Additionally.c - Solutions for 1.3 Task
+- Operating Systems Shell Project.pdf- Answers for Task 1.5 (You can also find the answers for Task 1.5 at the end of this README file 😃)
 
 myshell.c has implementations for the following commands:
 - rev 
@@ -66,6 +67,7 @@ If you additionally want to see the code and implementation of the myshell.c, ta
 - Task3Additionally.c
 - Task3Intermediate
 - README.md
+- Operating Systems Shell Project.pdf
 
 ## ✔️ Task 1.5 Answers
 #### Question 1.5.1: What is the purpose of the fork() system call? 
