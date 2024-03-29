@@ -36,13 +36,13 @@ Sources we used during our project implementation:
 
 ## 💻 Compiling Our Program
 
-This is an explanation of how to download and run your project locally. To get a local copy and run them follow these simple example steps. To run this project you need to be using Linux Operating System as it follows and uses Unix System Calls.
+This is an explanation of how to download and run your project locally. To run this project you need to be using Linux Operating System as it follows and uses Unix System Calls. To get a local copy and run them follow these simple example steps
 
 ### 🚀 Installation
 1. Clone this repository
 - git clone https://github.com/Imroox/ProShell-IT-204-Operating-Systems-.git
 2. Compile myshell.c using gcc compiler
-- gcc -Wait -o myshell myshell.c
+- gcc -Wall -o myshell myshell.c
 3. Compile task3.c, Task3Intermediate and Task3Additionally using gcc compiler
 - gcc -Wall -o task3 task3.c
 - gcc -Wall -o Task3Intermediate Task3Intermediate.c
