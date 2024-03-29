@@ -65,7 +65,7 @@ If you additionally want to see the code and implementation of the myshell.c, ta
 - myshell.c
 - task3.c
 - Task3Additionally.c
-- Task3Intermediate
+- Task3Intermediate.c
 - README.md
 - Operating Systems Shell Project.pdf
 
