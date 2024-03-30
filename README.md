@@ -55,7 +55,7 @@ This is an explanation of how to download and run your project locally. To run t
 - ./Task3Additionally for Task3Additionally.c
 
 ### © C Code Implementation
-If you additionally want to see the code and implementation of the myshell.c, task3.c, Task3Intermediate. and Task3Additionally, You can use the command nano:
+If you additionally want to see the code and implementation of the myshell.c, task3.c, Task3Intermediate.c and Task3Additionally.c, You can use the command nano:
 - nano myshell.c
 - nano task3.c
 - nano Task3Additionally.c
